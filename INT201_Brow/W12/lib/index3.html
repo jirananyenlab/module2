@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div name="col-2 border border-secondary p-2 m-2 " name="office" id="item" >
+        <div id="1" class="selectDelete">cityOrCountry.city cityOrCountry.country</div>
+        <div id="2"class="selectDelete"> cityOrCountry.phone</div>
+    </div>
+    
+    <script>
+    const selectDelete = document.querySelectorAll(".selectDelete");
+   // const selectDelete = document.getElementsByClassName("selectDelete")
+    console.log(selectDelete);
+
+    for (const bird of selectDelete) {
+  if (bird.matches("#2")) {
+  console.log(bird);
+  }
+} 
+</script>
+</body>
+
+</html>
